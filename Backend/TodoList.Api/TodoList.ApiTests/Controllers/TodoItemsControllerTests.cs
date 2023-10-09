@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using TodoList.Api.Models;
 
 namespace TodoList.Api.Controllers.Tests
 {
