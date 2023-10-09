@@ -15,14 +15,14 @@ const App = () => {
   const [errorMessage, setErrorMessage] = useState('')
 
   useEffect(() => {
-    const convertBase64ToHtmlAndPreloadStaffAndClients = async () => {
+    const loadToDoItemList = async () => {
       // get all the items
       const itemsSourceResponse = await itemService.getAllItems()
       const data = itemsSourceResponse.data
       // initialize the item list
       setItems(data);
     }
-    convertBase64ToHtmlAndPreloadStaffAndClients();
+    loadToDoItemList();
   }, [])
 
   const handleDescriptionChange = (event) => {
