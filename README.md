@@ -10,18 +10,14 @@ The repository includes a **React-based** as well as an **Angular-based** front 
 
 You are required to make changes to **both** the front end and back end.
 
-**The back end functionality requires the following to be added:**
+**The back end functionality enhanced with the following:**
 
-You are asked to refactor the back end code in this solution. This code is in the Backend folder. You are free to make changes as and where you see fit. Think about how you might structure the solution, add appropriate tests using a framework of your choice, and leave the solution in a more maintainable and more easily understood state than it was originally.
+Refactored the back end code in the solution to have new service layer and made it injectable. Added appropriate unit tests using a microsoft and Mock testing framework and solution is a more maintainable one.
 
-**The front end functionality requires the following to be added:**
+**The front end functionality of React app is changed with the following :**
 
 1. The ability to surface any errors from the backend API in the UI
 2. The ability to mark an item in the to-do list as complete
-3. Add unit tests to cover the new functionality using a framework of your choice
+3. Added unit tests to cover the new functionality using a framework of your choice
 
-Remember that maintainability and clarity is key in your solution.
-You are welcome to use comments in the code to outline any assumptions you might make and/or outline your thinking at various points.
-Once completed please push the completed solution to your own repo and send us the link.
 <br/><br/>
-We look forward to seeing your submission and have fun!
