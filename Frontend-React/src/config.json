@@ -1,0 +1,13 @@
+{
+    "Enviroment": {
+        "dev": {
+            "BASE_API_URL": "https://localhost:44397/api/todoitems"
+        },
+        "qa": {
+            "BASE_API_URL": ""
+        },
+        "prod": {
+            "BASE_API_URL": ""
+        }
+    }
+}
